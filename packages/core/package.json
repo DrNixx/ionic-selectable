@@ -1,7 +1,7 @@
 {
   "name": "@ionic-selectable/core",
   "title": "Ionic Selectable",
-  "version": "5.0.0-alpha.19",
+  "version": "6.0.0-alpha.1",
   "description": "An Ionic component similar to Ionic Select, that allows to search items, including async search, group, add, edit, delete items, and much more.",
   "author": {
     "name": "Evgenii Koriakin",
@@ -18,10 +18,7 @@
   },
   "keywords": [
     "ionic",
-    "ionic 2",
-    "ionic 3",
-    "ionic 4",
-    "ionic 5",
+    "ionic 6",
     "ion-select",
     "search",
     "searchable",
@@ -57,19 +54,19 @@
     "lint.ts.fix": "tslint --project . --fix"
   },
   "dependencies": {
-    "@stencil/core": "2.17.4"
+    "@stencil/core": "^2.17.4"
   },
   "devDependencies": {
-    "@ionic/core": "6.2.4",
-    "@stencil/sass": "1.5.2",
+    "@ionic/core": "^6.2.4",
+    "@stencil/sass": "^2.0.0",
     "prettier": "^2.2.1",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^5.0.0",
-    "typescript": "~4.2.3"
+    "typescript": "^4.2.3"
   },
   "peerDependencies": {
-    "@ionic/core": "5.x"
+    "@ionic/core": "6.x"
   },
   "publishConfig": {
     "directory": "/",
